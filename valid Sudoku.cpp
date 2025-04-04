@@ -13,7 +13,7 @@ public:
                     if(tp1[board[j][i]-'0']++) return false;
                 }
                   if(board[i][j]!='.'){
-                  int=(i/3)*3+(j/3);
+                  int ind =(i/3)*3+(j/3);
                     if(box[ind][board[i][j]-'0']++) return false;
                 }
             }
